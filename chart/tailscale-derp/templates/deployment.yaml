@@ -47,6 +47,8 @@ spec:
             - name: {{ .name }}
               containerPort: {{ .targetPort }}
               protocol: {{ .protocol | default "TCP" }}
+              appProtocol: {{ .appProtocol }}
+              hostPort: {{ .hostPort }}
             {{- end }}
           livenessProbe:
             {{- toYaml .Values.livenessProbe | nindent 12 }}
