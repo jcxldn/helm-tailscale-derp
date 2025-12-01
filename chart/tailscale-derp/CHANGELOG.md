@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.18.0](https://github.com/jcxldn/helm-tailscale-derp/compare/tailscale-derp-v0.17.0...tailscale-derp-v0.18.0) (2025-12-01)
+
+
+### Features
+
+* **container:** update to ghcr.io/jcxldn/helm-tailscale-derp:v1.88.4-aec7726 ([#2](https://github.com/jcxldn/helm-tailscale-derp/issues/2)) ([970a980](https://github.com/jcxldn/helm-tailscale-derp/commit/970a9801df70d896db76948e25fa39da7530ab33))
+
 ## [0.17.0](https://github.com/jcxldn/helm-tailscale-derp/compare/tailscale-derp-v0.16.0...tailscale-derp-v0.17.0) (2025-10-30)
 
 
