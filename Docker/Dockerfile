@@ -1,6 +1,6 @@
 FROM golang:1.25 AS builder
 WORKDIR /app
-ARG VERSION=${VERSION:-v1.68.0}
+ARG VERSION=${VERSION:-v1.92.0}
 # https://tailscale.com/kb/1118/custom-derp-servers/
 RUN go install tailscale.com/cmd/derper@${VERSION}
 RUN go install tailscale.com/cmd/derpprobe@${VERSION}
